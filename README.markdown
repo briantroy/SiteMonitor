@@ -16,7 +16,9 @@ The site monitor script *check_site_status.php* should be run periodically from 
 
     */1 * * * * root /usr/local/SiteMonitor/check_site_status.php cf=/usr/local/SiteMonitor/check_mvx_status_config.php >> /dev/null
 
-The only argument is cf=<your configuration file>
+The only argument is:
+
+- cf : your configuration file based on *check_site_status_config.php*
 
 ## Configuruation
 
